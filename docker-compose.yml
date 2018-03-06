@@ -1,7 +1,6 @@
 version: '3'
-
 services:
-	api: # Node.js App
+    api: # Node.js App
         container_name: gs-api
         build: .
         ports:
